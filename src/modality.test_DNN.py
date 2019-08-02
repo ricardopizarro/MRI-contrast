@@ -23,10 +23,6 @@ import re
 import json
 import math
 
-from nrximport import nrximport
-pynrx = nrximport('pynrx', '1.0', verbose=True)
-from pynrx.nrxfile.minc import Image
-
 from keras.models import model_from_json
 from keras import backend as K
 from keras.models import Model
